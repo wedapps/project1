@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A68F7E62475DB20000F679A /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68F7E52475DB20000F679A /* firstViewController.swift */; };
 		9A8A6B4124564779007D41DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A6B4024564779007D41DE /* AppDelegate.swift */; };
 		9A8A6B4324564779007D41DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A6B4224564779007D41DE /* SceneDelegate.swift */; };
 		9A8A6B4524564779007D41DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A6B4424564779007D41DE /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A68F7E52475DB20000F679A /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		9A8A6B3D24564779007D41DE /* proyecto1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8A6B4024564779007D41DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A8A6B4224564779007D41DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				9A8A6B4424564779007D41DE /* ViewController.swift */,
 				9AB75B7A245C932500609093 /* ViewControllerWords.swift */,
 				9AB75B7C245C93F700609093 /* ViewControllerMessage.swift */,
+				9A68F7E52475DB20000F679A /* firstViewController.swift */,
 				9A8A6B4624564779007D41DE /* Main.storyboard */,
 				9A8A6B492456477F007D41DE /* Assets.xcassets */,
 				9A8A6B4B2456477F007D41DE /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 				9A8A6B4324564779007D41DE /* SceneDelegate.swift in Sources */,
 				9AB75B7D245C93F700609093 /* ViewControllerMessage.swift in Sources */,
 				9AB75B7B245C932500609093 /* ViewControllerWords.swift in Sources */,
+				9A68F7E62475DB20000F679A /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
