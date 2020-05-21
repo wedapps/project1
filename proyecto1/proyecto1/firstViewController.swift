@@ -23,7 +23,7 @@ class firstViewController: UIViewController {
         startButton.setTitle("¡Comencemos!", for: .normal)
         startButton.roundButton()
         entranceTextLabel.roundLabel()
-        let colors = [UIColor.green, UIColor.orange, UIColor.blue, UIColor.yellow, UIColor.purple, UIColor.red, UIColor.systemPink]
+        // let colors = [UIColor.green, UIColor.orange, UIColor.blue, UIColor.yellow, UIColor.purple, UIColor.red, UIColor.systemPink]
         
         // entranceTextLabel.backgroundColor = .green
         // startButton.backgroundColor = .green
