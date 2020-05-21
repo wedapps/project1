@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A2A51FD24761A9000D5D1FF /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A51FC24761A9000D5D1FF /* UIButtonExtension.swift */; };
+		9A2A51FF24761C3F00D5D1FF /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A51FE24761C3F00D5D1FF /* UILabelExtension.swift */; };
 		9A68F7E62475DB20000F679A /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68F7E52475DB20000F679A /* firstViewController.swift */; };
 		9A8A6B4124564779007D41DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A6B4024564779007D41DE /* AppDelegate.swift */; };
 		9A8A6B4324564779007D41DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A6B4224564779007D41DE /* SceneDelegate.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A2A51FC24761A9000D5D1FF /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		9A2A51FE24761C3F00D5D1FF /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		9A68F7E52475DB20000F679A /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		9A8A6B3D24564779007D41DE /* proyecto1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8A6B4024564779007D41DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,10 +86,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A2A51FB24761A6B00D5D1FF /* extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				9A2A51FC24761A9000D5D1FF /* UIButtonExtension.swift */,
+				9A2A51FE24761C3F00D5D1FF /* UILabelExtension.swift */,
+			);
+			path = extensiones;
+			sourceTree = "<group>";
+		};
 		9A8A6B3424564778007D41DE = {
 			isa = PBXGroup;
 			children = (
 				9A8A6B3F24564779007D41DE /* proyecto1 */,
+				9A2A51FB24761A6B00D5D1FF /* extensiones */,
 				9A8A6B5624564780007D41DE /* proyecto1Tests */,
 				9A8A6B6124564780007D41DE /* proyecto1UITests */,
 				9A8A6B3E24564779007D41DE /* Products */,
@@ -272,6 +286,8 @@
 				9A8A6B4124564779007D41DE /* AppDelegate.swift in Sources */,
 				9A8A6B4324564779007D41DE /* SceneDelegate.swift in Sources */,
 				9AB75B7D245C93F700609093 /* ViewControllerMessage.swift in Sources */,
+				9A2A51FF24761C3F00D5D1FF /* UILabelExtension.swift in Sources */,
+				9A2A51FD24761A9000D5D1FF /* UIButtonExtension.swift in Sources */,
 				9AB75B7B245C932500609093 /* ViewControllerWords.swift in Sources */,
 				9A68F7E62475DB20000F679A /* firstViewController.swift in Sources */,
 			);
