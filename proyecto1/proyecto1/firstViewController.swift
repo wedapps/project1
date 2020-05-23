@@ -18,18 +18,12 @@ class firstViewController: UIViewController {
         super.viewDidLoad()
         //setupAnimations()
         
-        entranceTextLabel.text = "¡Bienvenido! Aquí tienes una app que le entregará frases inspiradoras para el momento que vives. Déjese llevar por mi intución y disfrute leer ahora lo que realmente tienes que leer ahora. No te olvides disfrutar de cada momento de la vida. De todo se saca una lesión. ¡¡¡Saludos!!!"
+        entranceTextLabel.text = "¡Bienvenido!\n\nAquí tienes una app que le entregará frases inspiradoras para el momento que vives.\nDéjese llevar por mi intución y disfrute de leer ahora lo que realmente tienes que leer ahora.\nNo te olvides disfrutar de cada momento de la vida.\nDe todo se saca una lesión.\n\n¡Saludos!"
         
         startButton.setTitle("¡Comencemos!", for: .normal)
         startButton.roundButton()
+        startButton.setTitleColor(.black, for: .normal)
         entranceTextLabel.roundLabel()
-        
-        
-        
-        // let colors = [UIColor.green, UIColor.orange, UIColor.blue, UIColor.yellow, UIColor.purple, UIColor.red, UIColor.systemPink]
-        
-        // entranceTextLabel.backgroundColor = .green
-        // startButton.backgroundColor = .green
         }
     
     @IBAction func startButtonAction(_ sender: Any) {

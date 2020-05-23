@@ -29,30 +29,37 @@ class ViewController: UIViewController {
         myButtonRed.backgroundColor = .red
         myButtonRed.setTitle("Rojo", for: .normal)
         myButtonRed.setTitleColor(.red, for: .normal)
+        myButtonRed.roundButton()
         
         myButtonOrange.backgroundColor = .orange
         myButtonOrange.setTitle("Narajo", for: .normal)
         myButtonOrange.setTitleColor(.orange, for: .normal)
+        myButtonOrange.roundButton()
         
         myButtonYellow.backgroundColor = .yellow
         myButtonYellow.setTitle("Amarillo", for: .normal)
         myButtonYellow.setTitleColor(.yellow, for: .normal)
+        myButtonYellow.roundButton()
         
         myButtonGreen.backgroundColor = .green
         myButtonGreen.setTitle("Verde", for: .normal)
         myButtonGreen.setTitleColor(.green, for: .normal)
+        myButtonGreen.roundButton()
         
         myButtonBlue.backgroundColor = .blue
         myButtonBlue.setTitle("Azul", for: .normal)
         myButtonBlue.setTitleColor(.blue, for: .normal)
+        myButtonBlue.roundButton()
         
         myButtonLilac.backgroundColor = .systemPink
         myButtonLilac.setTitle("Rosa", for: .normal)
         myButtonLilac.setTitleColor(.systemPink, for: .normal)
+        myButtonLilac.roundButton()
         
         myButtonPurple.backgroundColor = .purple
         myButtonPurple.setTitle("Morado", for: .normal)
         myButtonPurple.setTitleColor(.purple, for: .normal	)
+        myButtonPurple.roundButton()
         
     }
     // Botones Color

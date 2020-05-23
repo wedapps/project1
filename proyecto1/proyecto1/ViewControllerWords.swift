@@ -31,49 +31,59 @@ class ViewControllerWords: UIViewController {
         super.viewDidLoad()
         
         // Atibuye el color de fondo, basado en los atributos de la variable 'colorDeFondo'
-        self.view.backgroundColor = colorDeFondo
+        //self.view.backgroundColor = colorDeFondo
         
         // Aquí la configuración de los botones
         // usando los nombres de los IBOutlets
-        myButtonEuphoria.backgroundColor = nil
+        myButtonEuphoria.backgroundColor = colorDeFondo
         myButtonEuphoria.setTitle("Euforia", for: .normal)
         myButtonEuphoria.setTitleColor(.black, for: .normal)
+        myButtonEuphoria.roundButton()
         
-        myButtonConfidence.backgroundColor = nil
+        myButtonConfidence.backgroundColor = colorDeFondo
         myButtonConfidence.setTitle("Confianza", for: .normal)
         myButtonConfidence.setTitleColor(.black, for: .normal)
+        myButtonConfidence.roundButton()
         
-        myButtonAngry.backgroundColor = nil
+        myButtonAngry.backgroundColor = colorDeFondo
         myButtonAngry.setTitle("Rabia", for: .normal)
         myButtonAngry.setTitleColor(.black, for: .normal)
+        myButtonAngry.roundButton()
         
-        myButtonSadness.backgroundColor = nil
+        myButtonSadness.backgroundColor = colorDeFondo
         myButtonSadness.setTitle("Tristeza", for: .normal)
         myButtonSadness.setTitleColor(.black, for: .normal)
+        myButtonSadness.roundButton()
         
-        myButtonMotivation.backgroundColor = nil
+        myButtonMotivation.backgroundColor = colorDeFondo
         myButtonMotivation.setTitle("Motivación", for: .normal)
         myButtonMotivation.setTitleColor(.black, for: .normal)
+        myButtonMotivation.roundButton()
         
-        myButtonLonelyness.backgroundColor = nil
+        myButtonLonelyness.backgroundColor = colorDeFondo
         myButtonLonelyness.setTitle("Soledad", for: .normal)
         myButtonLonelyness.setTitleColor(.black, for: .normal)
+        myButtonLonelyness.roundButton()
         
-        myButtonFear.backgroundColor = nil
+        myButtonFear.backgroundColor = colorDeFondo
         myButtonFear.setTitle("Miedo", for: .normal)
         myButtonFear.setTitleColor(.black, for: .normal)
+        myButtonFear.roundButton()
         
-        myButtonJoy.backgroundColor = nil
+        myButtonJoy.backgroundColor = colorDeFondo
         myButtonJoy.setTitle("Alegria", for: .normal)
         myButtonJoy.setTitleColor(.black, for: .normal)
+        myButtonJoy.roundButton()
         
-        myButtonPatience.backgroundColor = nil
+        myButtonPatience.backgroundColor = colorDeFondo
         myButtonPatience.setTitle("Paciencia", for: .normal)
         myButtonPatience.setTitleColor(.black, for: .normal)
+        myButtonPatience.roundButton()
         
-        myButtonLove.backgroundColor = nil
+        myButtonLove.backgroundColor = colorDeFondo
         myButtonLove.setTitle("Amor", for: .normal)
         myButtonLove.setTitleColor(.black, for: .normal)
+        myButtonLove.roundButton()
 
         // Do any additional setup after loading the view.
     }
