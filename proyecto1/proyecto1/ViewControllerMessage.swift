@@ -45,6 +45,20 @@ class ViewControllerMessage: UIViewController {
         self.title = titulo!
         self.view.backgroundColor = colorDeFondo
         
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            meditaLabel.textColor = UIColor.white
+        } else {
+            meditaLabel.textColor = UIColor.black
+        }
+        
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            messageText.textColor = UIColor.white
+        } else {
+            messageText.textColor = UIColor.black
+        }
+                
+        //startButton.setTitleColor(.black, for: .normal)
+        
         if titulo! == "Euforia" {
             messageText.text = euphoriaQuotes.randomElement()
         } else if titulo! == "Confianza" {

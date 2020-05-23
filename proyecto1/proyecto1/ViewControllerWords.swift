@@ -37,53 +37,93 @@ class ViewControllerWords: UIViewController {
         // usando los nombres de los IBOutlets
         myButtonEuphoria.backgroundColor = colorDeFondo
         myButtonEuphoria.setTitle("Euforia", for: .normal)
-        myButtonEuphoria.setTitleColor(.black, for: .normal)
         myButtonEuphoria.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonEuphoria.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonEuphoria.setTitleColor(.black, for: .normal)
+        }
         
         myButtonConfidence.backgroundColor = colorDeFondo
         myButtonConfidence.setTitle("Confianza", for: .normal)
-        myButtonConfidence.setTitleColor(.black, for: .normal)
         myButtonConfidence.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonConfidence.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonConfidence.setTitleColor(.black, for: .normal)
+        }
         
         myButtonAngry.backgroundColor = colorDeFondo
         myButtonAngry.setTitle("Rabia", for: .normal)
-        myButtonAngry.setTitleColor(.black, for: .normal)
         myButtonAngry.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonAngry.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonAngry.setTitleColor(.black, for: .normal)
+        }
         
         myButtonSadness.backgroundColor = colorDeFondo
         myButtonSadness.setTitle("Tristeza", for: .normal)
-        myButtonSadness.setTitleColor(.black, for: .normal)
         myButtonSadness.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonSadness.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonSadness.setTitleColor(.black, for: .normal)
+        }
         
         myButtonMotivation.backgroundColor = colorDeFondo
         myButtonMotivation.setTitle("Motivación", for: .normal)
-        myButtonMotivation.setTitleColor(.black, for: .normal)
         myButtonMotivation.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonMotivation.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonMotivation.setTitleColor(.black, for: .normal)
+        }
         
         myButtonLonelyness.backgroundColor = colorDeFondo
         myButtonLonelyness.setTitle("Soledad", for: .normal)
-        myButtonLonelyness.setTitleColor(.black, for: .normal)
         myButtonLonelyness.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonLonelyness.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonLonelyness.setTitleColor(.black, for: .normal)
+        }
         
         myButtonFear.backgroundColor = colorDeFondo
         myButtonFear.setTitle("Miedo", for: .normal)
-        myButtonFear.setTitleColor(.black, for: .normal)
         myButtonFear.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonFear.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonFear.setTitleColor(.black, for: .normal)
+        }
         
         myButtonJoy.backgroundColor = colorDeFondo
         myButtonJoy.setTitle("Alegria", for: .normal)
-        myButtonJoy.setTitleColor(.black, for: .normal)
         myButtonJoy.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonJoy.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonJoy.setTitleColor(.black, for: .normal)
+        }
         
         myButtonPatience.backgroundColor = colorDeFondo
         myButtonPatience.setTitle("Paciencia", for: .normal)
-        myButtonPatience.setTitleColor(.black, for: .normal)
         myButtonPatience.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonPatience.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonPatience.setTitleColor(.black, for: .normal)
+        }
         
         myButtonLove.backgroundColor = colorDeFondo
         myButtonLove.setTitle("Amor", for: .normal)
-        myButtonLove.setTitleColor(.black, for: .normal)
         myButtonLove.roundButton()
+        if colorDeFondo == UIColor.blue || colorDeFondo == UIColor.purple {
+            myButtonLove.setTitleColor(.white, for: .normal)
+        } else {
+            myButtonLove.setTitleColor(.black, for: .normal)
+        }
 
         // Do any additional setup after loading the view.
     }
