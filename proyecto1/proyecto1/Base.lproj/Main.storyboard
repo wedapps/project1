@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hY8-U8-e0K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4c2-rJ-lnQ">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7Uq-vh-rSF"/>
+                        <segue destination="hY8-U8-e0K" kind="relationship" relationship="rootViewController" id="kcx-P0-lxQ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t0I-Nu-oYc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -33,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4j-LC-9w7">
-                                <rect key="frame" x="20" y="44" width="374" height="621"/>
+                                <rect key="frame" x="20" y="88" width="374" height="577"/>
                                 <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,7 +43,7 @@
                                 <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="20"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Atb-9e-aaJ"/>
+                                    <action selector="startButtonAction:" destination="hY8-U8-e0K" eventType="touchUpInside" id="a8G-Fa-b6F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -60,14 +60,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Syw-9G-Ed2"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1io-qK-U5f"/>
                     <connections>
                         <outlet property="entranceTextLabel" destination="f4j-LC-9w7" id="ycc-I6-w3m"/>
                         <outlet property="startButton" destination="b1w-mO-tqW" id="52d-LG-VfY"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="VCColors" id="fJF-x7-scc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rV3-5Y-897" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-510.14492753623193" y="-688.39285714285711"/>
+            <point key="canvasLocation" x="-574" y="88"/>
         </scene>
         <!--screen1-->
         <scene sceneID="tne-QT-ifu">
@@ -184,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+            <point key="canvasLocation" x="217" y="88"/>
         </scene>
         <!--screen2-->
         <scene sceneID="I3j-zC-OAs">
@@ -343,7 +345,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhj-Q1-LH8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="KBy-27-FXg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="988" y="127"/>
+            <point key="canvasLocation" x="1004" y="88"/>
         </scene>
         <!--screen3-->
         <scene sceneID="zfB-zm-0fb">
@@ -421,11 +423,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQL-f8-vLq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1804" y="127"/>
+            <point key="canvasLocation" x="1823" y="88"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="16e-xy-YDz"/>
-        <segue reference="Atb-9e-aaJ"/>
+        <segue reference="5V9-Ur-WWt"/>
+        <segue reference="BGm-ID-DH2"/>
     </inferredMetricsTieBreakers>
 </document>
