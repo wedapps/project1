@@ -22,6 +22,17 @@ Preparing the project:
 2. Re-naming the ViewController.swift to launchViewController.swift
 3. Creating the extensions folder
 
+#### 4
+Adding the Navigation Controller
+
+1. Adding a new Navigation Controller at Main.storyboard
+2. Deleting the Root View Controller added with the new Navigation Controller
+3. Defining Navigation Controller as initial view controller
+4. Adding a new View Controller, renamed as 'message'. Also linking them to the launchViewController class
+5. Make a segue between the Navigation Controller and message View Controller as root view controller
+
+#### 5
+
 
 ## About The App
 ### Primera Pantalla

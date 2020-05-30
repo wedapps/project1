@@ -78,20 +78,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="screen1" customClass="ViewController" customModule="proyecto1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="FS0-ac-kAL">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Qué color más te gusta hoy?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ant-UG-m21">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="96.666666666666671"/>
                                         <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvw-MW-0cV">
-                                        <rect key="frame" x="0.0" y="101" width="414" height="101"/>
+                                        <rect key="frame" x="0.0" y="96.666666666666657" width="414" height="97"/>
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -100,7 +100,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIo-ml-Bst">
-                                        <rect key="frame" x="0.0" y="202" width="414" height="101"/>
+                                        <rect key="frame" x="0.0" y="193.66666666666669" width="414" height="96.666666666666686"/>
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -109,7 +109,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qj-rx-U7o">
-                                        <rect key="frame" x="0.0" y="303" width="414" height="101"/>
+                                        <rect key="frame" x="0.0" y="290.33333333333331" width="414" height="96.666666666666686"/>
                                         <state key="normal">
                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -118,7 +118,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycw-9Y-9Zl">
-                                        <rect key="frame" x="0.0" y="404" width="414" height="101"/>
+                                        <rect key="frame" x="0.0" y="387" width="414" height="96.666666666666686"/>
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -127,7 +127,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrh-5S-sfB">
-                                        <rect key="frame" x="0.0" y="505" width="414" height="101"/>
+                                        <rect key="frame" x="0.0" y="483.66666666666663" width="414" height="97"/>
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -136,7 +136,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sk4-cQ-ulC">
-                                        <rect key="frame" x="0.0" y="606" width="414" height="101"/>
+                                        <rect key="frame" x="0.0" y="580.66666666666663" width="414" height="96.666666666666629"/>
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -145,7 +145,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgi-j0-Av4">
-                                        <rect key="frame" x="0.0" y="707" width="414" height="101"/>
+                                        <rect key="frame" x="0.0" y="677.33333333333337" width="414" height="96.666666666666629"/>
                                         <state key="normal">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -188,20 +188,20 @@
             <objects>
                 <viewController id="1Op-bh-nbs" userLabel="screen2" customClass="ViewControllerWords" customModule="proyecto1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6qi-xm-VKx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cCG-ye-r2x">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Con qué palabra más te identificas hoy?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r55-wg-9rl">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="69"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="65.666666666666671"/>
                                         <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3h-J7-wDB">
-                                        <rect key="frame" x="0.0" y="74" width="414" height="68.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="70.666666666666657" width="414" height="66"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Euforia">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -212,7 +212,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haV-Ox-syp">
-                                        <rect key="frame" x="0.0" y="147.66666666666666" width="414" height="69"/>
+                                        <rect key="frame" x="0.0" y="141.66666666666666" width="414" height="65.666666666666657"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Confianza">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -222,7 +222,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JeW-XC-5HH">
-                                        <rect key="frame" x="0.0" y="221.66666666666663" width="414" height="69"/>
+                                        <rect key="frame" x="0.0" y="212.33333333333331" width="414" height="66"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Rabia">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -232,7 +232,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOq-Kt-zxB">
-                                        <rect key="frame" x="0.0" y="295.66666666666669" width="414" height="69"/>
+                                        <rect key="frame" x="0.0" y="283.33333333333331" width="414" height="65.666666666666686"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Tristeza">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -242,7 +242,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Jo-gg-nvt">
-                                        <rect key="frame" x="0.0" y="369.66666666666669" width="414" height="68.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="354" width="414" height="66"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Motivación">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -252,7 +252,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGM-cP-kMN">
-                                        <rect key="frame" x="0.0" y="443.33333333333331" width="414" height="68.999999999999943"/>
+                                        <rect key="frame" x="0.0" y="425" width="414" height="65.666666666666686"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Soledad">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -262,7 +262,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuM-X5-nZa">
-                                        <rect key="frame" x="0.0" y="517.33333333333337" width="414" height="69"/>
+                                        <rect key="frame" x="0.0" y="495.66666666666663" width="414" height="66"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Miedo">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -272,7 +272,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bki-bZ-17H">
-                                        <rect key="frame" x="0.0" y="591.33333333333337" width="414" height="69"/>
+                                        <rect key="frame" x="0.0" y="566.66666666666663" width="414" height="65.666666666666629"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Alegría">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -282,7 +282,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9A5-Yb-W0M">
-                                        <rect key="frame" x="0.0" y="665.33333333333337" width="414" height="68.666666666666629"/>
+                                        <rect key="frame" x="0.0" y="637.33333333333337" width="414" height="66"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <state key="normal" title="Impaciencia">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -292,7 +292,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhe-Cc-o6U">
-                                        <rect key="frame" x="0.0" y="739" width="414" height="69"/>
+                                        <rect key="frame" x="0.0" y="708.33333333333337" width="414" height="65.666666666666629"/>
                                         <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="20"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Amor">
@@ -340,11 +340,11 @@
             <objects>
                 <viewController title="sreen3" id="FZY-Hk-drD" userLabel="screen3" customClass="ViewControllerMessage" customModule="proyecto1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kUQ-Vc-xbL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="VFK-mZ-mcg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medita hoy estas palabras..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zh-dd-6QO">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
@@ -357,7 +357,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GZc-DA-glY">
-                                        <rect key="frame" x="0.0" y="105" width="414" height="600"/>
+                                        <rect key="frame" x="0.0" y="105" width="414" height="614"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="700" id="CUb-HI-RS8"/>
                                             <constraint firstAttribute="height" constant="600" id="mWI-a3-1kt"/>
@@ -368,7 +368,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUa-3v-VpK">
-                                        <rect key="frame" x="0.0" y="710" width="414" height="50"/>
+                                        <rect key="frame" x="0.0" y="724" width="414" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="xeo-G1-oPm"/>
@@ -411,6 +411,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="5V9-Ur-WWt"/>
-        <segue reference="BGm-ID-DH2"/>
+        <segue reference="fJF-x7-scc"/>
     </inferredMetricsTieBreakers>
 </document>
