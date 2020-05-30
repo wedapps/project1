@@ -15,6 +15,13 @@ Creating this document
 #### 2
 Creating new Xcode project
 
+#### 3
+Preparing the project:
+
+1. Deleting the View Controller from Main.storyboard
+2. Re-naming the ViewController.swift to launchViewController.swift
+3. Creating the extensions folder
+
 
 ## About The App
 ### Primera Pantalla
