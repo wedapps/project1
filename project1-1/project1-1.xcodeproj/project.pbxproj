@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A44E2EC24A90D5F00DA089F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44E2EB24A90D5F00DA089F /* UIButtonExtension.swift */; };
+		9A44E2EE24A9148400DA089F /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44E2ED24A9148400DA089F /* UILabelExtension.swift */; };
+		9A44E2F124A9298F00DA089F /* xcodeImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A44E2F024A9298F00DA089F /* xcodeImage.jpg */; };
 		9ADDC5B52482C2EF000F5727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADDC5B42482C2EF000F5727 /* AppDelegate.swift */; };
 		9ADDC5B72482C2EF000F5727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADDC5B62482C2EF000F5727 /* SceneDelegate.swift */; };
 		9ADDC5B92482C2EF000F5727 /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADDC5B82482C2EF000F5727 /* launchViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A44E2EB24A90D5F00DA089F /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		9A44E2ED24A9148400DA089F /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		9A44E2F024A9298F00DA089F /* xcodeImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xcodeImage.jpg; sourceTree = "<group>"; };
 		9ADDC5B12482C2EF000F5727 /* project1-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project1-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADDC5B42482C2EF000F5727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ADDC5B62482C2EF000F5727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A44E2EF24A9294300DA089F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A44E2F024A9298F00DA089F /* xcodeImage.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9ADDC5A82482C2EF000F5727 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +114,7 @@
 		9ADDC5B32482C2EF000F5727 /* project1-1 */ = {
 			isa = PBXGroup;
 			children = (
+				9A44E2EF24A9294300DA089F /* Resources */,
 				9ADDC5B42482C2EF000F5727 /* AppDelegate.swift */,
 				9ADDC5B62482C2EF000F5727 /* SceneDelegate.swift */,
 				9ADDC5B82482C2EF000F5727 /* launchViewController.swift */,
@@ -132,6 +147,8 @@
 		9ADDC5E42482F90E000F5727 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9A44E2EB24A90D5F00DA089F /* UIButtonExtension.swift */,
+				9A44E2ED24A9148400DA089F /* UILabelExtension.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -243,6 +260,7 @@
 				9ADDC5C12482C2F6000F5727 /* LaunchScreen.storyboard in Resources */,
 				9ADDC5BE2482C2F6000F5727 /* Assets.xcassets in Resources */,
 				9ADDC5BC2482C2EF000F5727 /* Main.storyboard in Resources */,
+				9A44E2F124A9298F00DA089F /* xcodeImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ADDC5B92482C2EF000F5727 /* launchViewController.swift in Sources */,
+				9A44E2EC24A90D5F00DA089F /* UIButtonExtension.swift in Sources */,
+				9A44E2EE24A9148400DA089F /* UILabelExtension.swift in Sources */,
 				9ADDC5B52482C2EF000F5727 /* AppDelegate.swift in Sources */,
 				9ADDC5B72482C2EF000F5727 /* SceneDelegate.swift in Sources */,
 			);
