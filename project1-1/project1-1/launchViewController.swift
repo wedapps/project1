@@ -16,8 +16,7 @@ class launchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // MISSING LOGO IMAGE
-        
+                
         // Entrance text label
         entranceTextLabel.text = "¡Bienvenid@ a BestWords!\n\nAquí tienes tu app de inspiración. Una app que le entregará las mejores citaciones para el momento que vives hoy y ahora.\nDéjese llevar por mi intución.\nNo te olvides disfrutar de cada momento de la vida.\nDe todo se saca una lesión.\n\n¡Saludos!"
         entranceTextLabel.roundLabel()
@@ -31,12 +30,16 @@ class launchViewController: UIViewController {
         startButton.backgroundColor = backColor
         
         // The logo image
+        // MISSING THE CORRECT LOGO IMAGE
         let logoImageResource = UIImage(named: "xcodeImage.jpg")
         logoImage.image = logoImageResource
         logoImage.clipsToBounds = true
         
     }
 
-
+    @IBAction func startButtonAction(_ sender: Any) {
+        performSegue(withIdentifier: "toColors", sender: self)
+    }
+    
 }
 

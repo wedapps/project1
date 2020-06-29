@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A028B4924A94C8500DC50C6 /* colorsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A028B4824A94C8500DC50C6 /* colorsDetailViewController.swift */; };
 		9A44E2EC24A90D5F00DA089F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44E2EB24A90D5F00DA089F /* UIButtonExtension.swift */; };
 		9A44E2EE24A9148400DA089F /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44E2ED24A9148400DA089F /* UILabelExtension.swift */; };
 		9A44E2F124A9298F00DA089F /* xcodeImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A44E2F024A9298F00DA089F /* xcodeImage.jpg */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A028B4824A94C8500DC50C6 /* colorsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorsDetailViewController.swift; sourceTree = "<group>"; };
 		9A44E2EB24A90D5F00DA089F /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		9A44E2ED24A9148400DA089F /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		9A44E2F024A9298F00DA089F /* xcodeImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xcodeImage.jpg; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				9ADDC5B42482C2EF000F5727 /* AppDelegate.swift */,
 				9ADDC5B62482C2EF000F5727 /* SceneDelegate.swift */,
 				9ADDC5B82482C2EF000F5727 /* launchViewController.swift */,
+				9A028B4824A94C8500DC50C6 /* colorsDetailViewController.swift */,
 				9ADDC5BA2482C2EF000F5727 /* Main.storyboard */,
 				9ADDC5BD2482C2F6000F5727 /* Assets.xcassets */,
 				9ADDC5BF2482C2F6000F5727 /* LaunchScreen.storyboard */,
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A028B4924A94C8500DC50C6 /* colorsDetailViewController.swift in Sources */,
 				9ADDC5B92482C2EF000F5727 /* launchViewController.swift in Sources */,
 				9A44E2EC24A90D5F00DA089F /* UIButtonExtension.swift in Sources */,
 				9A44E2EE24A9148400DA089F /* UILabelExtension.swift in Sources */,
