@@ -98,30 +98,51 @@
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bM6-g4-5AX">
                                         <rect key="frame" x="0.0" y="97" width="414" height="96.5"/>
                                         <state key="normal" title="red"/>
+                                        <connections>
+                                            <action selector="redButtonAction:" destination="0sh-Vk-xUo" eventType="touchUpInside" id="a9a-Jr-9yj"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pa5-Lf-PcR">
                                         <rect key="frame" x="0.0" y="193.5" width="414" height="97"/>
                                         <state key="normal" title="orange"/>
+                                        <connections>
+                                            <action selector="orangeButtonAction:" destination="0sh-Vk-xUo" eventType="touchUpInside" id="uHP-DY-72w"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eac-Oe-9uw">
                                         <rect key="frame" x="0.0" y="290.5" width="414" height="96.5"/>
                                         <state key="normal" title="yellow"/>
+                                        <connections>
+                                            <action selector="yellowButtonAction:" destination="0sh-Vk-xUo" eventType="touchUpInside" id="90e-xu-AFR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzg-6U-1gL">
                                         <rect key="frame" x="0.0" y="387" width="414" height="97"/>
                                         <state key="normal" title="green"/>
+                                        <connections>
+                                            <action selector="greenButtonAction:" destination="0sh-Vk-xUo" eventType="touchUpInside" id="slT-OZ-k3n"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fw-aC-xSW">
                                         <rect key="frame" x="0.0" y="484" width="414" height="96.5"/>
                                         <state key="normal" title="blue"/>
+                                        <connections>
+                                            <action selector="blueButtonAction:" destination="0sh-Vk-xUo" eventType="touchUpInside" id="D4H-SC-tNf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQW-M1-PoC">
                                         <rect key="frame" x="0.0" y="580.5" width="414" height="97"/>
                                         <state key="normal" title="lilac"/>
+                                        <connections>
+                                            <action selector="lilacButtonAction:" destination="0sh-Vk-xUo" eventType="touchUpInside" id="J39-cm-ehg"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSQ-Vy-y0o">
                                         <rect key="frame" x="0.0" y="677.5" width="414" height="96.5"/>
                                         <state key="normal" title="purple"/>
+                                        <connections>
+                                            <action selector="purpleButtonAction:" destination="0sh-Vk-xUo" eventType="touchUpInside" id="Hcy-GA-Zje"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

@@ -57,8 +57,16 @@ Adding the Colors View Controller
 4. Adding the label and buttons at the stack
 5. Adding all IBOutlets
 6. Implementing the setup for label and buttons
+7. Implementing an alert, maybe to explain what the app expect the user does (I don't know yet if it's necessary)
+8. Implementing the IBAction for each button
+9. Adding an override to go to the next view, carring the button color as background color
 
-(pending - notification message for colors)
+#### 7
+Adding the Words View Controller
+
+1. fff
+2. f
+
 
 
 ## About The App
