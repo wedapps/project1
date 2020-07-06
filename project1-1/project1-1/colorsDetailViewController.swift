@@ -70,7 +70,7 @@ class colorsDetailViewController: UIViewController {
         purpleButton.roundButton()
     }
     
-    // Here, implementing the action of all buttons
+    // Here, implementing the action of all color buttons
     @IBAction func redButtonAction(_ sender: Any) {
         // Here, code which define this color as background at next view
         let chosenBackgroundColor = [redButton.backgroundColor]

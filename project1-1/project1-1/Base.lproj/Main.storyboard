@@ -166,11 +166,183 @@
                         <outlet property="purpleButton" destination="WSQ-Vy-y0o" id="4Er-gk-qsb"/>
                         <outlet property="redButton" destination="bM6-g4-5AX" id="Lzc-YA-551"/>
                         <outlet property="yellowButton" destination="Eac-Oe-9uw" id="fkC-5o-gYi"/>
+                        <segue destination="ilb-1z-66W" kind="show" identifier="toWords" id="Tos-9Q-SVg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JXK-p5-0gs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1273.913043478261" y="-927.45535714285711"/>
+            <point key="canvasLocation" x="-1439" y="-927"/>
+        </scene>
+        <!--words-->
+        <scene sceneID="Svg-VT-5Jc">
+            <objects>
+                <viewController id="ilb-1z-66W" userLabel="words" customClass="wordsDetailViewController" customModule="project1_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kUT-5H-Rxj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="lan-tE-DRC">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYu-dM-mcF">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="66"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ph-bg-MDH">
+                                        <rect key="frame" x="0.0" y="71" width="414" height="65.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="euphoriaActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="qQQ-9A-0fm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6b-B3-J6L">
+                                        <rect key="frame" x="0.0" y="141.5" width="414" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="confidenceActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="0RR-u9-GrP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5a-8x-4KZ">
+                                        <rect key="frame" x="0.0" y="212.5" width="414" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="angryActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="fPm-YT-iVx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GF2-eW-eJ6">
+                                        <rect key="frame" x="0.0" y="283.5" width="414" height="65.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="sadnessActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="K5B-fe-JE5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPf-hb-vot">
+                                        <rect key="frame" x="0.0" y="354" width="414" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="motivationActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="mQT-vZ-5G0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZ9-Li-cM1">
+                                        <rect key="frame" x="0.0" y="425" width="414" height="65.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="lonelynessActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="wax-Dj-atr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09d-Fl-ywM">
+                                        <rect key="frame" x="0.0" y="495.5" width="414" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="fearActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="0oZ-4q-gfM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3e-OZ-3ZQ">
+                                        <rect key="frame" x="0.0" y="566.5" width="414" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="joyActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="jpk-Ye-QH7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGT-IH-EO7">
+                                        <rect key="frame" x="0.0" y="637.5" width="414" height="65.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="patienceActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="0zA-zM-6DM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBR-bQ-vDY">
+                                        <rect key="frame" x="0.0" y="708" width="414" height="66"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="loveActionButton:" destination="ilb-1z-66W" eventType="touchUpInside" id="7tg-MO-MCJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Bd5-Jd-wVt" firstAttribute="trailing" secondItem="lan-tE-DRC" secondAttribute="trailing" id="MOV-tr-TzS"/>
+                            <constraint firstItem="lan-tE-DRC" firstAttribute="top" secondItem="Bd5-Jd-wVt" secondAttribute="top" id="OBf-64-SOj"/>
+                            <constraint firstItem="Bd5-Jd-wVt" firstAttribute="bottom" secondItem="lan-tE-DRC" secondAttribute="bottom" id="aag-9c-ESC"/>
+                            <constraint firstItem="lan-tE-DRC" firstAttribute="leading" secondItem="Bd5-Jd-wVt" secondAttribute="leading" id="lxZ-Ai-E6X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bd5-Jd-wVt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HWT-df-wUT"/>
+                    <connections>
+                        <outlet property="angryButton" destination="f5a-8x-4KZ" id="2HX-r6-nvG"/>
+                        <outlet property="confidenceButton" destination="x6b-B3-J6L" id="rPs-9E-oRx"/>
+                        <outlet property="euphoriaButton" destination="2Ph-bg-MDH" id="Wdz-d0-qAu"/>
+                        <outlet property="fearButton" destination="09d-Fl-ywM" id="kIM-rh-KEo"/>
+                        <outlet property="joyButton" destination="c3e-OZ-3ZQ" id="6fv-Qr-Xay"/>
+                        <outlet property="lonelynessButton" destination="yZ9-Li-cM1" id="0Wc-rn-Su2"/>
+                        <outlet property="loveButton" destination="XBR-bQ-vDY" id="N1e-UE-fvo"/>
+                        <outlet property="motivationButton" destination="XPf-hb-vot" id="mhN-KG-kS9"/>
+                        <outlet property="patienceButton" destination="FGT-IH-EO7" id="lTX-zy-QUd"/>
+                        <outlet property="sadnessButton" destination="GF2-eW-eJ6" id="621-tY-WHm"/>
+                        <outlet property="wordQuestionLabel" destination="NYu-dM-mcF" id="q4V-Jz-0by"/>
+                        <segue destination="hc5-e9-zP3" kind="show" identifier="toMessages" id="USN-EL-Z4e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Bj-ei-rqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-729" y="-927"/>
+        </scene>
+        <!--messages-->
+        <scene sceneID="KCX-TD-t3p">
+            <objects>
+                <viewController id="hc5-e9-zP3" userLabel="messages" customClass="messagesViewController" customModule="project1_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dXq-4g-Z4U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tJE-Oz-SaN">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8r-oA-Rfq">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
+                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SUp-vV-7Cw">
+                                        <rect key="frame" x="0.0" y="258" width="414" height="258"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kId-nX-0Hh">
+                                        <rect key="frame" x="0.0" y="516" width="414" height="258"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tJE-Oz-SaN" firstAttribute="leading" secondItem="FKJ-My-88b" secondAttribute="leading" id="CEA-PC-rQa"/>
+                            <constraint firstItem="FKJ-My-88b" firstAttribute="bottom" secondItem="tJE-Oz-SaN" secondAttribute="bottom" id="mCv-15-EEy"/>
+                            <constraint firstItem="FKJ-My-88b" firstAttribute="trailing" secondItem="tJE-Oz-SaN" secondAttribute="trailing" id="rmH-Is-sF0"/>
+                            <constraint firstItem="tJE-Oz-SaN" firstAttribute="top" secondItem="FKJ-My-88b" secondAttribute="top" id="tWZ-84-KEq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FKJ-My-88b"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vhf-pv-053"/>
+                    <connections>
+                        <outlet property="meditaLabel" destination="n8r-oA-Rfq" id="HlV-ls-JEm"/>
+                        <outlet property="messageText" destination="SUp-vV-7Cw" id="eWg-yN-fKB"/>
+                        <outlet property="outButton" destination="kId-nX-0Hh" id="bcf-3o-ipG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="haE-zb-vzB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.681159420289859" y="-927.45535714285711"/>
         </scene>
     </scenes>
 </document>

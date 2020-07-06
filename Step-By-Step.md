@@ -64,8 +64,31 @@ Adding the Colors View Controller
 #### 7
 Adding the Words View Controller
 
-1. fff
-2. f
+1. Adding a new file named wordsDetailViewController
+2. Implementing the variable which receive the chosen color from preview view
+3. Adding a new view controller
+4. Customizing the new view controller with the new class
+5. Adding a stack view
+6. Adding the label
+7. Adding the buttons (10)
+8. Adding the IBOUtlets for label and buttons
+9. Setting up the buttons and label
+10. Adding the IBActions for buttons
+11. Adding the override to segue to the next view and bring the background color
+
+#### 8
+Adding the Message View Controller
+
+1. Adding a new view controller
+2. Adding a stack, label, message view and button
+3. Adding a new file named messagesViewController
+4. Implementing the variable which receive the chosen color from preview view
+5. Implementing the variable which receive the Title from preview view
+6. Adding a new file at Resources folder, named quotes, with the variable for each word as variable and its messages as an array
+7. Adding the IBOutlets for label, text view and button
+8. Setting up the label, the title of message and the background of the view
+9. Implementing the message text, according with the chosen word and color in past views
+10. 
 
 
 
