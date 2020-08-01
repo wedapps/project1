@@ -28,7 +28,7 @@ class messagesViewController: UIViewController {
         super.viewDidLoad()
         
         // Setting up the label
-        meditaLabel.text = "Medita estas palabras sobre \(String(describing: titleOfMessage))"
+        meditaLabel.text = "Medita estas palabras sobre \(titleOfMessage ?? "nill")"
         meditaLabel.backgroundColor = .lightGray
         meditaLabel.roundLabel()
         
@@ -39,6 +39,7 @@ class messagesViewController: UIViewController {
         self.view.backgroundColor = definedBackgroundColor
         
         // Setting up the message view
+        messageText.backgroundColor = definedBackgroundColor
         if definedBackgroundColor == UIColor.blue || definedBackgroundColor == UIColor.purple {
             messageText.textColor = UIColor.white
         } else {
@@ -77,9 +78,7 @@ class messagesViewController: UIViewController {
     }
     
     // Here, implementing the action of Out button
-    
-    
-    // An override to segue to the first view
-    
-
+    @IBAction func outButtonAction(_ sender: Any) {
+        performSegue(withIdentifier: "toLaunchView", sender: self)
+    }
 }

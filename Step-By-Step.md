@@ -88,7 +88,8 @@ Adding the Message View Controller
 7. Adding the IBOutlets for label, text view and button
 8. Setting up the label, the title of message and the background of the view
 9. Implementing the message text, according with the chosen word and color in past views
-10. 
+10. Correcting the space between the objects in the stack view
+11. Impelementing the Out botton, with a segue to the Launch View.
 
 
 
